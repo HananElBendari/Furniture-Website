@@ -1,0 +1,244 @@
+﻿
+*{
+    padding:0px;
+    margin:0px;
+    outline:none;
+
+}
+
+#all{
+    width:100%; 
+    height:100%;
+}
+
+
+a{
+    text-decoration:none; 
+    color:#000; 
+    font-weight:bold;
+}
+
+a:hover, a:visited{color:#00C;}
+
+img[src="img/HMDECOR.png"]{
+    width:100px;
+    height:30px;
+    position:fixed;
+    padding-top:10px;
+    margin-left:100px;
+    margin-right:100px;
+    z-index:1;
+}
+
+#page_head ul{ 
+    list-style:none;
+    position:fixed;
+    margin-left:300px;
+    z-index:1;
+}
+
+#page_head ul li{display:inline-block; 
+    text-align:center; 
+    margin-left:10px; 
+    margin-right:10px; 
+    padding-top:15px;
+    padding-bottom:15px; 
+    font-size:16px
+
+}
+
+.ul_li1,.ul_li2{
+    display:block;
+    height:20px;
+    }
+
+.ul_li1{
+    background-color:rgba(102,102,102,.3);
+}
+
+.ul_li2{
+    background-color:rgba(153,0,153,.4);
+}
+
+.ul_li1-1 a{
+    display:block;
+    opacity:1;
+}
+
+.ul_li1-2{
+    display:block;
+    opacity:.5;
+    height:2px;
+    background-color:white;
+    position:relative;
+    top:10px;
+}
+
+.search_icon_format{
+    height:40px; 
+    width:188px;
+}
+
+.search_icon_format1{ 
+    height:30px;
+    background-color:rgba(153,0,153,.7);
+    padding-top:3px;
+    padding-bottom:2px;
+    border-bottom-right-radius:5px;
+}
+
+.search_icon_format11{
+    height:50%;
+    display:none;
+    float:left;
+    background-color:rgba(153,0,153,.7);
+    padding-top:2px;
+    padding-bottom:1px;
+
+}
+
+.search_icon_format:hover .search_icon_format11{display:inline-block;}
+
+#ul_li_sign{
+    padding-left:20px;
+} 
+
+#ul_li_sign a{
+    text-decoration:underline;
+    text-decoration-color:lightgray;
+    font-weight:normal;
+} 
+
+#ul_li_sign a:hover{
+    text-decoration-color:rgba(51,51,51,0.9);
+    color:#000;
+} 
+
+img[src="img/cart.png"]{
+    width:30px;
+    height:30px;
+    position:fixed;
+    margin-top:-5px;
+    margin-left:-10px;
+}
+
+#li_cart{
+    display:inline-block;
+    margin-left:20px;
+}
+
+
+#sign_up{
+    width:90%;height:auto; background:#ffffff;
+padding-top:100px; margin:20px auto;}
+#sign_up_t{
+    display:inline-block;font-size: 24px;font-weight:bold; margin-left:40px; 
+   
+}
+#sign_up_b{
+    display:inline-block;font-size:18px; font-weight:normal; margin-left:50px;}
+#sign_up_form{
+    margin:20px auto;}
+#sign_up_form tr td{padding:6px;}
+#sign_up_form sup{color:red;font-size:14px;}
+#sign_up_form tbody{
+    display:inline-block;
+    float:left;
+
+}
+#sign_up_form tfoot{
+    display:inline-block;
+    margin-left:15px;
+    border-left:.5px solid lightgray;
+    padding-left:20px;
+}
+#Fname,#Lname,#email,#Cemail,#password,#Cpassword{ 
+    width:500px; 
+    height:40px;
+    outline-color:#eeeeee;
+
+}
+#sign_up_form input[type=checkbox]{ 
+    width:25px; 
+    height:15px;
+    margin-top:5px;
+
+}
+#form_submit,#form_reset{
+    width:60px; 
+    height:40px; 
+    margin-right:50px; 
+    border:hidden; 
+    background:#eeeeee;
+    color:rgba(0,0,204,1); 
+    font-weight:bold;outline-color:darkgray;
+
+}
+
+#page_footer{ 
+    width:100%;
+    height:200px;
+    position:relative;
+    bottom:-50px;
+    background-color: rgba(51,51,51,0.1);
+    padding-top:20px;
+
+}
+
+#footer{
+    margin:40px auto;
+}
+
+#footer tr td,#footer tr th{
+    padding-left:100px;
+}
+
+#footer a:hover,#footer a:visited{
+    color:white;
+}
+
+#footer img{
+    width:20px;
+    height:20px;
+}
+
+#footer p{
+    font-size:small;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+#sub{
+    width:320px;
+    height:30px;
+    overflow:hidden;
+}
+
+#subscribe{
+    display:inline-block;
+    background-color:rgba(51,51,51,0.7);
+    width:100px; height:30px;
+    margin-left:-5px;
+    text-align:center;
+    padding-top:5px;
+}
+
+.pay_img{
+    width:50px; height:30px;
+     background-image:url(../img/icon2.jpg);background-repeat:no-repeat;
+     background-size:50px 30px
+
+}
+.pay_img:hover{
+    background-image:url(../img/icon3.png); 
+    background-repeat:no-repeat; 
+    background-size:50px 30px
+
+}
+
+input[type="email"]{
+     width:200px; 
+     height:30px; 
+
+}
